@@ -1,9 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+  <head data-locator-hook-status-message="No valid renderers found.">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <!-- add fonts -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Karla:wght@400&amp;display=swap"
+    />
+
+    <link rel="stylesheet" href="main.css" />
+
+    <title>Single Price Grid Component ~ Bilal</title>
+
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
   </head>
-  <body></body>
+  <body cz-shortcut-listen="true">
+    <main>
+      <section class="intro">
+        <h1 class="title">Join our community</h1>
+        <h2 class="subtitle">30-day, hassle-free money back guarantee</h2>
+        <p class="description">
+          Gain access to our full library of tutorials along with expert code
+          reviews. Perfect for any developers who are serious about honing their
+          skills.
+        </p>
+      </section>
+      <div class="sub-wrap">
+        <section class="subscription">
+          <h1 class="title">Monthly Subscription</h1>
+          <div class="price-wrap">
+            <h2 class="price">$29</h2>
+            <p class="per">per month</p>
+          </div>
+          <p class="description">Full access for less than $1 a day</p>
+          <button class="signup">Sign Up</button>
+        </section>
+        <seciton class="why">
+          <h1 class="title">Why Us</h1>
+          <ul class="why-list">
+            <li>Tutorials by industry experts</li>
+            <li>Peer &amp; expert code review</li>
+            <li>Coding exercises</li>
+            <li>Access to our GitHub repos</li>
+            <li>Community forum</li>
+            <li>Flashcard decks</li>
+            <li>New videos every week</li>
+          </ul>
+        </seciton>
+      </div>
+    </main>
+  </body>
 </html>
